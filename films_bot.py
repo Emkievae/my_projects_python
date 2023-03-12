@@ -17,7 +17,7 @@ def film_scrab(link):
     return list_of_films
 
 
-token = '5837182018:AAElJ11ZSSevaQ06S8Q6vcFrWSWVTGEJmps'
+token = 'token' # здесь нужно ввести токен бота
 bot = telebot.TeleBot(token)
 
 # словарь жанров фильмов и ссылок на категории этих жанров сайта Иви (будут использоваться в функции парсинга фильмов)
